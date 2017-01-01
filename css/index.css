@@ -8,7 +8,7 @@
 {
 	background-color: #FFFFFF;
     cursor:default;
-    
+
 }
 
 #page
@@ -97,7 +97,7 @@
 	left: 306px;
 	margin-top: 8px;
 	position: relative;
-    
+
         -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */
@@ -107,6 +107,7 @@
 
 #u92-6
 {
+    display: none;
 	z-index: 9;
 	width: 528px;
 	min-height: 51px;
@@ -134,6 +135,7 @@
 
 #u109
 {
+    display: none;
 	z-index: 26;
 	width: 557px;
 	height: 1px;
@@ -143,7 +145,7 @@
 	left: 306px;
 	margin-top: 10px;
 	position: relative;
-    
+
         -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 5s; /* Firefox < 16 */
         -ms-animation: fadein 5s; /* Internet Explorer */
@@ -155,7 +157,7 @@
 {
 	z-index: 15;
 	width: 528px;
-	min-height: 94px;
+	min-height: 47px;
 	background-color: transparent;
 	line-height: 23px;
 	color: #000000;
@@ -189,7 +191,7 @@
 	left: 306px;
 	margin-top: 9px;
 	position: relative;
-    
+
         -webkit-animation: fadein 7s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 7s; /* Firefox < 16 */
         -ms-animation: fadein 7s; /* Internet Explorer */
@@ -229,8 +231,8 @@
 	color: #7F7F7F;
 	visibility: inherit;
     text-align: center;
-    
-    
+
+
 }
 
 #u103
@@ -324,6 +326,7 @@ body
     //margin-top: 25px;
     //font-size: 21px;
     text-align: center;
+    width: auto;
 
     -webkit-animation: fadein 7s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 7s; /* Firefox < 16 */
@@ -356,4 +359,16 @@ body
 .fcss {
     text-align: center;
     color: #AAAAAB;
+}
+
+.intro4-1 {
+    //margin-top: 25px;
+    //font-size: 12px;
+    //text-align: center;
+
+    -webkit-animation: fadein 9s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 9s; /* Firefox < 16 */
+        -ms-animation: fadein 9s; /* Internet Explorer */
+         -o-animation: fadein 9s; /* Opera < 12.1 */
+            animation: fadein 9s;
 }
