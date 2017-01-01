@@ -157,7 +157,7 @@
 {
 	z-index: 15;
 	width: 528px;
-	height: 47px;
+	min-height:  height: 47px;
 	background-color: transparent;
 	line-height: 23px;
 	color: #000000;
@@ -176,7 +176,7 @@
 	background-color: transparent;
 	padding-top: 0px;
 	padding-bottom: 0px;
-	height: 47px;
+	min-height: 47px;
 	margin: 9px 0px 0px;
 }
 
