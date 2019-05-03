@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="viewport" content="minimal-ui, initial-scale=1, maximum-scale=1.0, width=device-width, user-scalable=no" />
+  <!-- <meta name="viewport" content="minimal-ui; initial-scale=1.0; maximum-scale=1.0; width=device-width; user-scalable=no" /> -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="manifest" href="/manifest.json">
+  <title>BOX NE Prototype</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      overflow: hidden;
+      /* position: absolute; */
+    }
+
+    body {
+      background-color: black;
+    }
+
+    #boxImage {
+      display: inline-block;
+      position: absolute;
+      opacity: 1;
+      top: 430px;
+      left: 0px;
+      transition: opacity 0.5s;
+      -webkit-transition: opacity 0.5s;
+      /* z-index: 0; */
+    }
+
+    #boxVideo {
+      display: inline-block;
+      position: absolute;
+      opacity: 0;
+      top: 430px;
+      left: 0px;
+      transition: opacity 0.5s;
+      -webkit-transition: opacity 0.5s;
+      /* top: -43px; */
+      /* z-index: -1; */
+    }
+
+    #boxVideo2 {
+      display: inline-block;
+      position: absolute;
+      opacity: 0;
+      top: 430px;
+      left: 0px;
+      transition: opacity 0.5s;
+      -webkit-transition: opacity 0.5s;
+      /* top: -43px; */
+      /* z-index: -1; */
+    }
+
+    #touchArea {
+      display: block;
+      position: absolute;
+      width: 1112px;
+      height: 844px;
+      /* left: 0px; */
+      /* top: -43px; */
+      z-index: 1;
+      /* background-color: black; */
+      /* height="812" width="375" */
+    }
+  </style>
+</head>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+<body onload="init()">
+
+  <div id="touchArea"> </div>
+  <img id="boxImage" src="B-L-0100-00-Standby.png" height="278" width="1112"> </img>
+
+
+
+</body>
+
+</html>
